@@ -13,6 +13,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">ola porra.js!</a>
         </h1>
         <h2 className='title'> agora deu certo</h2>
+        <h2 className='title'> agora deu certo</h2>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
