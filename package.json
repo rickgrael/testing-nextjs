@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start && node pages/api/broker.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "mosca": "^2.8.3",
