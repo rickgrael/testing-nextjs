@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "node pages/api/broker"
   },
   "dependencies": {
+    "mosca": "^2.8.3",
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"

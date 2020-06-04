@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
@@ -7,10 +9,10 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">ola porra.js!</a>
+          Welcome to  <Link href='/posts/firstPost'><a>ola porra.js!</a></Link>
         </h1>
         <h2 className='title'> agora deu certo</h2>
         <h2 className='title'> agora deu certo</h2>
